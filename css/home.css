@@ -1,0 +1,68 @@
+body {
+    font-family: 'Mochiy Pop One', cursive;
+    background-color: #F8FBFD;
+}
+.navbar {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    height: 80px;
+    background-color: #DFE8EF;
+    
+}
+.navbar-brand {
+    color: #173F5F;
+    margin-left: -200px;
+    font-size: 25px;
+
+}
+.nav-link {
+    color: #194569;
+}
+
+.inputContainer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.inputField {
+    width: 80%;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    border-radius: 30px;
+    margin: 10px 0;
+    color: black;
+    font-size: .8em;
+    font-weight: 800;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.inputField:focus {
+    outline: none;
+    border-bottom: 2px solid #194569;
+}
+
+.inputField::placeholder {
+    color: #194569;
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Mochiy Pop One', cursive;
+}
+
+#search-icon {
+    position: relative;
+    margin-top: 30px;
+    right: 70px;
+    top: 10%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
